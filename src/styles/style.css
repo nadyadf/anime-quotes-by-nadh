@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+button {
+    padding: 12px;
+    width: 10rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    background-color: #9d8189;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+quote-list {
+    width: 70%;
+    margin-top: 2rem;
+}
